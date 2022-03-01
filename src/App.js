@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 
-import CustomRoutes from "./router/CustomRoutes";
+import CustomRoutes from "./router/CustomRoute";
 
 const App = () => {
   return (
@@ -12,3 +12,4 @@ const App = () => {
     </div>
   );
 };
+export default App;
