@@ -1,5 +1,14 @@
-function App() {
-  return <div className="App">Merhaba stajerlik</div>;
-}
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
 
-export default App;
+import CustomRoutes from "./router/CustomRoutes";
+
+const App = () => {
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <CustomRoutes />
+      </BrowserRouter>
+    </div>
+  );
+};

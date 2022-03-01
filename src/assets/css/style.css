@@ -1,0 +1,17 @@
+.conteiner-search {
+    background-color: rgb(220, 220, 231);
+    position: relative;
+    height: auto;
+  }
+  .btn-search {
+    position: absolute;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 7px;
+    height: 37px;
+  }
+  .search {
+    height: 37px;
+    border-radius: 7px;
+    width: 350px;
+  }
