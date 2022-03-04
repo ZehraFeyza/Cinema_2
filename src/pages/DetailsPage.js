@@ -23,14 +23,14 @@ const DetailsPage = () => {
   const returnBack = () => {
     navigate(-1);
   };
-  const { title, overview, vote_average, release_date } = movie;
+  const { title, overview, vote_average, release_date,poster_path } = movie;
   return (
     <div className="movie-detail">
       <Container>
         <Row>
           <Col className="col-img" lg={7}>
             <div className="div-img">
-              <img src={IMG_API + movie.poster_path} alt={movie.title} />
+              <img src={IMG_API + poster_path} alt={title} />
             </div>
           </Col>
 
